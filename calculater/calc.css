@@ -1,0 +1,80 @@
+body{
+    background-color: #010334;
+}
+
+#parent {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 200px;
+    background-color: #010334;
+    border: white 4px solid;
+    border-radius: 10%;
+}
+
+#input {
+    height: 50px;
+    width: 40%;
+    outline: 3px black solid;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#row1 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row2 {
+    padding-left: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.row2 :hover{
+    background-color: red;
+    border: white solid 3px;
+}
+
+.num {
+    background-color: burlywood;
+    width: 20%;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#row3 {
+    padding-left: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+#equal {
+    background-color: yellow;
+    width: 20%;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#row3 :hover{
+    background-color: red;
+    border: white 3px solid;
+}
+
+#delete{
+    background-color: darkmagenta;
+    width: 20%;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
